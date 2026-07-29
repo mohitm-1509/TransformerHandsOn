@@ -14,16 +14,14 @@ This repo bridges the gap. You **code the internals from scratch**, then learn t
 
 ## The Learning Track
 
-| Step | Script | What You Learn | Time |
-|------|--------|---------------|------|
-| 1 | `01_tokenization.py` | How text becomes numbers — subword splitting, input IDs, attention masks, padding, truncation, special tokens | 1 hr |
-| 2 | `02_embeddings.py` | How IDs become vectors — word embeddings, positional embeddings, how they combine, semantic similarity proof | 1 hr |
-| 3 | `03_self_attention.py` | The core mechanism — Q/K/V from scratch, attention scores, scaling, softmax, multi-head attention, masked (causal) attention | 2 hrs |
-| 4 | `04_transformer_block.py` | The full architecture — feed-forward network, residual connections, LayerNorm, stacking layers, parameter breakdown | 2 hrs |
-| 5 | `05_inference_pipeline.py` | Using pretrained models — sentiment analysis, NER, fill-mask, zero-shot classification, text generation, domain-specific models | 1 hr |
-| 6 | `06_fine_tuning.py` | Training on your data — dataset loading, tokenization, Trainer API, evaluation metrics, saving/loading models | 3 hrs |
-
-**Total: ~10 hours to mass the complete transformer pipeline.**
+| Step | Script | What You Learn |
+|------|--------|---------------|
+| 1 | `01_tokenization.py` | How text becomes numbers — subword splitting, input IDs, attention masks, padding, truncation, special tokens |
+| 2 | `02_embeddings.py` | How IDs become vectors — word embeddings, positional embeddings, how they combine, semantic similarity proof |
+| 3 | `03_self_attention.py` | The core mechanism — Q/K/V from scratch, attention scores, scaling, softmax, multi-head attention, masked (causal) attention |
+| 4 | `04_transformer_block.py` | The full architecture — feed-forward network, residual connections, LayerNorm, stacking layers, parameter breakdown |
+| 5 | `05_inference_pipeline.py` | Using pretrained models — sentiment analysis, NER, fill-mask, zero-shot classification, text generation, domain-specific models |
+| 6 | `06_fine_tuning.py` | Training on your data — dataset loading, tokenization, Trainer API, evaluation metrics, saving/loading models |
 
 ## The Flow
 
